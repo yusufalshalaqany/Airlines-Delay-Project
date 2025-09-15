@@ -1,0 +1,55 @@
+# 1 - Import Pandas
+import pandas as pd
+
+# 2 - Import DelayedFlights Dataset & Read it
+df = pd.read_csv("DelayedFlights.csv")
+df
+
+# 3 - Rename the first column 'unnamed' by 'ID' & Order by Asc
+df = df.rename(columns={"Unnamed: 0": "ID"})
+df = df.sort_values(by="ID", ascending=True)
+df
+
+# 4 - Get Dataset Info Then Change Type
+df["DepTime"] = df["DepTime"].astype("Int64")
+df["ArrTime"] = df["ArrTime"].astype("Int64")
+df["TaxiIn"] = df["TaxiIn"].astype("Int64")
+df["TaxiOut"] = df["TaxiOut"].astype("Int64")
+df["ActualElapsedTime"] = df["ActualElapsedTime"].astype("Int64")
+df["CRSElapsedTime"] = df["CRSElapsedTime"].astype("Int64")
+df["AirTime"] = df["AirTime"].astype("Int64")
+df["ArrDelay"] = df["ArrDelay"].astype("Int64")
+df["DepDelay"] = df["DepDelay"].astype("Int64")
+df["CarrierDelay"] = df["CarrierDelay"].astype("Int64")
+df["WeatherDelay"] = df["WeatherDelay"].astype("Int64")
+df["NASDelay"] = df["NASDelay"].astype("Int64")
+df["SecurityDelay"] = df["SecurityDelay"].astype("Int64")
+df["LateAircraftDelay"] = df["LateAircraftDelay"].astype("Int64")
+df.info()
+pd.set_option("display.max_columns", None) 
+df.head(10)
+
+# 5 - Check Duplicated Values
+print(df.duplicated().sum())
+
+# 6 - Check Null Values
+print(df.isnull().sum())
+
+# 7 - Fill All Null Values
+df.fillna({"ArrTime":0}, inplace = True)
+df.fillna({"ActualElapsedTime":0}, inplace = True)
+df.fillna({"CRSElapsedTime":0}, inplace = True)
+df.fillna({"AirTime":0}, inplace = True)
+df.fillna({"ArrDelay":0}, inplace = True)
+df.fillna({"TaxiIn":0}, inplace = True)
+df.fillna({"TaxiOut":0}, inplace = True)
+df.fillna({"CarrierDelay":0}, inplace = True)
+df.fillna({"WeatherDelay":0}, inplace = True)
+df.fillna({"NASDelay":0}, inplace = True)
+df.fillna({"SecurityDelay":0}, inplace = True)
+df.fillna({"LateAircraftDelay":0}, inplace = True)
+df.fillna({"TailNum":"Unknown"}, inplace = True)
+
+print(df.isnull().sum())
+
+df.to_csv('CleanedDelayedFlights.csv', index=False)
