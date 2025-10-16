@@ -210,6 +210,15 @@ Weather Delay Flights = CALCULATE([Total Flights], FactDelayedFlights[WeatherDel
 Reporting:
 1. Make a star schema to improve analysis performance
 2. Make a dimension for Date using a simple M language code
+```m
+let
+	StartDate = #date(2008, 01, 01),
+	EndDate = #date(2008, 12, 31),
+	NumberOfDays = Duration.Days(EndDate - StartDate) + 1,
+	Dates = List.Dates(StartDate, NumberOfDays, #duration(1, 0, 0, 0))
+in
+	Dates
+```
 3. Make 5 reports to get valuable insights from data
 
  <br />
