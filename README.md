@@ -1,7 +1,12 @@
 # 📊 Airlines Delayed Flights Project
 
-## Table of Contents
----
+ <a href="https://app.powerbi.com/view?r=eyJrIjoiOWM2OWJlNTMtYjVjMi00OTRjLTlmNDAtYTdhYWI0NGVkM2UzIiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9">
+ <img src="https://img.shields.io/badge/View%20a%20dashboards-%23FDC300?style=for-the-badge">
+
+ <br />
+
+# Contents
+
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
@@ -9,8 +14,6 @@
 - [Data Analysis](#Data-Analysis)
 - [Results](#Results)
 - [Key Learning](#Key-Learning)
-
----
 
 ### Project Overview
 
