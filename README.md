@@ -2,7 +2,10 @@
 
  <a href="https://app.powerbi.com/view?r=eyJrIjoiOWM2OWJlNTMtYjVjMi00OTRjLTlmNDAtYTdhYWI0NGVkM2UzIiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9">
  <img src="https://img.shields.io/badge/View%20A%20Project-%23FFED00?style=for-the-badge">
-
+    </a>
+ <a href="https://www.linkedin.com/posts/yusuf-al-shalaqany_dataanalysis-python-pandas-activity-7373348507749023744-ti-y?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC_Cv7UBLUQanl94PAQobXd5FF9DsRZeNnc">
+ <img src="https://img.shields.io/badge/LinkedIn%20Post-%232480E6?style=for-the-badge">
+  
  <br />
 
 # Contents
