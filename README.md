@@ -22,7 +22,11 @@ This data analysis project aims to provide insights about airlines delayed fligh
 ### Data Sources
 
 Delayed Flights Data: The primary dataset used for this analysis is the "DelayedFlights.csv" file, containing detailed information about each flight made by every the carrier.
-  - [Download here](https://www.kaggle.com/datasets/giovamata/airlinedelaycauses) or from attachments
+  - From Kaggel [Download here](https://www.kaggle.com/datasets/giovamata/airlinedelaycauses) or from attachments [Download here](https://github.com/yusufalshalaqany/Airlines-Delayed-Flights-Project/blob/main/Data%20Source/DelayedFlights.csv)
+
+Other sources.
+  - Carrier Codes [Download here](https://github.com/yusufalshalaqany/Airlines-Delayed-Flights-Project/blob/main/Data%20Source/CarrierCodes.csv) 
+  - Airport Codes [Download here](https://github.com/yusufalshalaqany/Airlines-Delayed-Flights-Project/blob/main/Data%20Source/AirportCodes.csv)
 
  <br />
 
