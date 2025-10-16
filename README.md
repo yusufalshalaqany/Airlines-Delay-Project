@@ -5,7 +5,10 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
-- [Data Preparation/Cleaning](#Data-Preparation-Cleaning)
+- [Data Preparation](#Data-Preparation)
+- [Data Analysis](#Data-Analysis)
+- [Results](#Results)
+- [Key Learning](#Key-Learning)
 
 ---
 
@@ -201,7 +204,7 @@ Reporting:
 
  <br />
 
-### Results/Findings
+### Results
 
 The analysis results are summarized as follows:
 1. The highest carrier and airport in flights are Southwest Airlines (377602) and Hartsfield-Jackson Atlanta International Airport (132158).
