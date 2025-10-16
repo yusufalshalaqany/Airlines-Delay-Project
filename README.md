@@ -35,7 +35,7 @@ Other sources.
 
 ### Tools
 
-1. Applications
+1 - Applications
 - Anaconda (Jupyter Notebook) - Data Exploration and Cleaning by Python/Pandas
   - [Download here](https://www.anaconda.com/)
 - PowerBI - Creating reports
@@ -43,13 +43,13 @@ Other sources.
 
  <br />
   
-2. AI 
+2 - AI 
 - [Chatgpt](https://chatgpt.com): help me with background design 
 - [LMArena](https://lmarena.ai): help me with analysis suggestions
 
  <br />
 
-3. Desing 
+3 - Desing 
 - [Coolors](https://coolors.co): help me to find a suitable color palette (Deep Ocean Blue)
 - [Flaticon](https://www.flaticon.com): help me to find a suitable icon for Bookmarks and Navigation
 
