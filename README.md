@@ -13,10 +13,10 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
-- [Data Preparation](#Data-Preparation)
-- [Data Analysis](#Data-Analysis)
-- [Results](#Results)
-- [Key Learning](#Key-Learning)
+- [Data Preparation](#data-preparation)
+- [Data Analysis](#data-analysis)
+- [Results](#results)
+- [Key Learning](#key-learning)
 
 ### Project Overview
 
